@@ -11,7 +11,7 @@ username = ''
 token = ''
 
 # function to get user input from the terminal to capture Github Username and Token
-def getUserImput():
+def getUserInput():
 
     global username # global variable
     global token    # global variable
@@ -97,6 +97,6 @@ def writetocsv(data):
 
 
 # Start of sequence
-getUserImput()
+getUserInput()
 data = getcommits()
 writetocsv(data)
