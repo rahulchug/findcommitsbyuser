@@ -76,8 +76,7 @@ def getcommits():
 '''
 def writetocsv(data):
     records = []
-    timeseries = []
-
+    
     try:
         for d in data['items']:
             datefromcommit = d['commit']['committer']['date']
