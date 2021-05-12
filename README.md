@@ -1,7 +1,7 @@
 Got this small exercise as a part of interview.
 
 1) A program that finds and displays the dates of a GitHub user's last 60 commits - "across" repositories..
-2) Find the meantime between the last 60 commits and store all time values in excel file.
+2) Find the meantime between the last 60 commits and store all time values in an excel file.
 I have created a PAT (personal access token) from Github to make sure that I am not restricted by the limits imposed by Github. **However** the Search API restricts the 30 max calls per minute 
 [search API docs](https://docs.github.com/en/rest/reference/search#search-commits).
 
